@@ -12,11 +12,11 @@
 
 #  Dorenv
  Required values in .env file:
- PORT=[the port you want to run on in localhost, default is 3000]
- ISSUER_URL=[the url of the authorization server as displayed in the meta data under issuer]
- CLIENT_SECRET=The client secret as found in Okta
- CLIENT_ID=The client id as found in Okta
- APP_URL=The url of the app which is also used as redirect URI
+ - PORT=[the port you want to run on in localhost, default is 3000]
+ - ISSUER_URL=[the url of the authorization server as displayed in the meta data under issuer]
+ - CLIENT_SECRET=The client secret as found in Okta
+ - CLIENT_ID=The client id as found in Okta
+ - APP_URL=The url of the app which is also used as redirect URI
 
 #  Notes
  - Use a native mobile app in Okta of you want to use Resource Owner Password Grant Flow
